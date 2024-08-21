@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgba(206, 206, 206, 0.642);
+}
+menu{
+    background-color: black;
+}
+.menu a{
+    padding: 0.9em 0.5em;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: white;
+}
+.parte1{
+    width: 49%;
+    background-color: rgb(6, 6, 7);
+    border-radius: 0em 0em 1em 1em;
+}
+.licores{
+    width: 48.44%;
+    display: inline-block;
+    text-align: left;
+}
+.descuento{
+    text-align: center;
+}
+.menu a:hover{
+    background-color: grey;
+    border-radius: 1em 1em 1em 1em;
+}
+.menu-icon{
+    font-size: 2em;
+    padding: 0.9rem 1rem; 
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+.menu-items{
+    list-style: none; 
+    margin: 0;
+    padding: 0;  
+    display: flex;
+    flex-direction: row;
+}
+#menu-toggle{
+    display: none;
+}
+.logo1{
+    width: 20%;
+    text-align: center;
+    padding-top: 0.3em;
+    
+}
+.logo{
+    width: 42%;
+}
+img{
+    max-width: 100%;
+}
+.inicio{
+    text-decoration: none;
+    list-style: none; 
+    padding: 0.1em 0.1em;
+    background-color: rgb(6, 6, 7);
+    border-radius: 1em 1em 1em 1em;
+
+}
+.inicio1 :hover{
+    background-color: grey;
+}
+.inicio a{
+    color: white;
+    text-decoration: none;
+}
+.inicio0{
+    width: 17%;
+    margin:0% auto;
+}
+.titulo{
+    border-bottom: 2px black solid;
+    text-align: left;
+    margin: 2% 5% 0.5% 5%;
+}
+.texto1{
+    font-size:2.4em;
+}
+.parrafo{
+    text-align: left;
+    margin: 2% 5% 0.5% 5%;
+}
+.parrafo1{
+    font-size:1.3em;
+}
+span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(128, 93, 93);
+
+}
+.parrafo11{
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 8em;
+    padding-left: 0.5em;
+    
+}
+.logo2{
+    display: inline-block;
+    width: 21%;
+    padding:1;
+}
+.logo22{
+    width: 80%;
+}
+.pie{
+    width: 90%;
+    margin: auto;
+    padding-top:5em;
+    padding-bottom: 5em;
+}
+.sucursales{
+    text-align: right;
+    width: 48%;
+    vertical-align:top;
+    display: inline-block;
+}
+.contactos{
+    text-align: left;
+    width: 48%;
+    display: inline-block;
+}
+.licores1{
+    width: 90%;
+    margin: 0% auto;
+}
+.licor11{
+    width: 45%;
+    display: inline-block;
+    padding: 0.2em;
+}
+.fotolicor{
+    width: 70%;
+}
+.producto{
+    border: 1px black solid;
+    box-shadow: 0px 0px 2px 2px black;
+    border-radius: 0.5em;
+}
+@media screen and ( min-width:600px ) and (max-width:999px) {
+    .menu-items{
+        flex-direction: block;
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menu-toggle:checked + .menu-icon + .menu-items{
+        display: flex;
+    }
+    .menu-icon{
+        color: black;
+        text-align: left;
+    }
+    .logo1{
+        width:34% ;   
+    }
+}
+@media screen and (max-width:600px){
+    .menu-items{
+        flex-direction: block; 
+        display: none;
+    }
+    .menu-icon{
+        display: block; 
+    }
+    #menu-toggle:checked + .menu-icon + .menu-items{
+        display: flex; 
+    }
+    .licores1{
+        width: 90%;
+        margin: 0% auto;
+    }
+    .licor11{
+        width: 50%;
+        display: inline-block;
+        padding: 0.2em;
+    }
+    .fotolicor{
+        width: 70%;
+    }
+    .menu-icon{
+        color: black;
+    }
+    .logo1{
+        width:34% ;   
+    }
+    .logo2{
+        width: 70%;
+        text-align: center;
+    }
+    .logo22{
+        width: 90%;
+    }
+    .parrafo11{
+        width: 80%;
+    }
+}
+
+
+/*
+
+.divmayor{
+    border: 2px red solid;
+    margin: 0% auto;
+}
+.mayor{
+    border: green 3px solid;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.cajaicono{
+    border: 5px yellowgreen solid;
+    width:17%;
+}
+.icono{
+    width: 100%;
+}
+.p1{
+    display: none;
+}
+.menu{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.menu1{
+    display: inline-block;
+    flex: 1;
+    text-align: left;
+}
