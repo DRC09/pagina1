@@ -78,6 +78,7 @@ img{
 .inicio0{
     width: 17%;
     margin:0% auto;
+    border: 2px red solid;
 }
 .titulo{
     border-bottom: 2px black solid;
@@ -208,38 +209,7 @@ span{
     .parrafo11{
         width: 80%;
     }
-}
-
-
-/*
-
-.divmayor{
-    border: 2px red solid;
-    margin: 0% auto;
-}
-.mayor{
-    border: green 3px solid;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-.cajaicono{
-    border: 5px yellowgreen solid;
-    width:17%;
-}
-.icono{
-    width: 100%;
-}
-.p1{
-    display: none;
-}
-.menu{
-    width: auto;
-    display: flex;
-    flex-direction: row;
-}
-.menu1{
-    display: inline-block;
-    flex: 1;
-    text-align: left;
+    .inicio0{
+        width: 28%;
+    }
 }
